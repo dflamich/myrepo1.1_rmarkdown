@@ -2,7 +2,9 @@
 title: "First RMarkdown Hello World!"
 author: "Flamich"
 date: "2025-01-24"
-output: github_document
+output: 
+  html_document:
+    keep_md: true
 ---
 Hello World!
 ```{r, eval = TRUE}
