@@ -1,8 +1,11 @@
-First RMarkdown Hello World!
-================
-Flamich
-2025-01-24
-
+---
+title: "First RMarkdown Hello World!"
+author: "Flamich"
+date: "2025-01-24"
+output: 
+  html_document:
+    keep_md: true
+---
 Hello World!
 
 ``` r
@@ -14,7 +17,9 @@ y <- a + b * x + rnorm(40, sd = sqrt(sig_sq))
 (x_n <- mean(x))
 ```
 
-    ## [1] 0.5030835
+```
+## [1] 0.5577915
+```
 
 ``` r
 ## [1] 0.503
@@ -23,4 +28,5 @@ plot(x, y)
 abline(a, b, col = "purple")
 ```
 
-![](first_rmarkdown_hello_world_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](first_rmarkdown_hello_world_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
+
