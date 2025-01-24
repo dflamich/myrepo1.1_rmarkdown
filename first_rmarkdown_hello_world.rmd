@@ -1,5 +1,5 @@
 ---
-title: "First RMarkdown "Hello World!""
+title: "First RMarkdown Hello World!"
 author: "Flamich"
 date: "2025-01-24"
 output: html_document
@@ -23,7 +23,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo = FALSE}
 plot(pressure)
 ```
 
